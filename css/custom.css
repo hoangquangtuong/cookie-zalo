@@ -1,0 +1,72 @@
+.box-custom {
+  padding: 0 20px 20px;
+}
+
+.box-custom h2 {
+  margin-top: 0;
+}
+
+.loading-data {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+.loading-data.show {
+  display: block;
+}
+
+.loading-data .icon-loading {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  height: 90px;
+  width: 90px;
+}
+/* CSS cho nút copy */
+.copy-button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+  background-color: #2980b9;
+}
+
+.copied {
+  color: green;
+}
+/* Bo tròn cho khung chứa nội dung */
+.box-custom {
+  border: 3px solid #0fdf43;
+  border-radius: 10px; /* Bo tròn các góc */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng mờ cho khung */
+  /*background-color: #f9f9f9;  Màu nền nhẹ */
+  max-width: 400px; /* Giới hạn chiều rộng */
+  margin: 0 auto; /* Canh giữa */
+}
+
+/* Thu nhỏ dòng tiêu đề */
+.box-custom h2 {
+  font-size: 15px; /* Kích thước chữ nhỏ hơn */
+  color: #170ce3; /* Màu chữ tối hơn */
+  text-align: center; /* Canh giữa tiêu đề */
+  margin-bottom: 15px; /* Khoảng cách dưới tiêu đề */
+}

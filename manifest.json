@@ -1,0 +1,29 @@
+{
+	"name": "Get Zalo IMEI & Cookie",
+	"version": "1.0.0",
+	"description": "công cụ lấy IMEI & Cookies của zalo",
+	"manifest_version": 3,
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"permissions": [
+	  "notifications",
+	  "activeTab",
+	  "webRequest",
+	  "identity",
+	  "cookies"
+	],
+	"action": {
+	  "default_popup": "popup.html"
+	},
+	"host_permissions": [
+	  "<all_urls>"
+	],
+	"icons": {
+	  "16": "logo/16.png",
+	  "32": "logo/32.png",
+	  "48": "logo/48.png",
+	  "64": "logo/64.png",
+	  "128": "logo/128.png"
+	}
+  } 
